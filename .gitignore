@@ -6,3 +6,6 @@ vendor/
 phpstan.neon
 /var/
 
+/src/Profile/Oxid4/
+/src/Profile/Oxid6/
+/tests/Profile/Oxid4/
