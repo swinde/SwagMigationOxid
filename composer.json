@@ -1,0 +1,47 @@
+{
+    "name": "swag/migration-oxid",
+    "description": "Oxid profiles for Shopware Migration Assistant",
+    "version": "0.9.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shopware"
+        }
+    ],
+    "require": {
+        "shopware/core": "~6.4.0",
+        "swag/migration-assistant": "~4.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "Swag\\MigrationOxid\\SwagMigrationOxid",
+        "copyright": "(c) by shopware AG",
+        "label": {
+            "de-DE": "Oxid Profile für den Migrations-Assistenten",
+            "en-GB": "Oxid profiles for the Migration Assistant"
+        },
+        "description": {
+            "de-DE": "Dein einfacher Wechsel von Oxid zu Shopware. Übertrage mit dem Migrations-Assistenten und dem dazugehörigen Oxid Profil-Plugin einfach und schnell Deine Shopdaten.",
+            "en-GB": "Making the switch from Oxid? This plugin works together with the free Migration Assistant to effortlessly transfer numerous datasets from your Oxid shop to Shopware 6."
+        },
+        "manufacturerLink": {
+            "de-DE": "https://store.shopware.com/shopware-ag.html",
+            "en-GB": "https://store.shopware.com/en/shopware-ag.html"
+        },
+        "supportLink": {
+            "de-DE": "https://issues.shopware.com/",
+            "en-GB": "https://issues.shopware.com/"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Swag\\MigrationOxid\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Swag\\MigrationOxid\\Test\\": "tests/",
+            "SwagMigrationAssistant\\": "../SwagMigrationAssistant"
+        }
+    }
+}

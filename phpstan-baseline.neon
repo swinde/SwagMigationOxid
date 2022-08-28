@@ -1,0 +1,152 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Offset 'id' does not exist on array\\|null\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Converter/CategoryConverter.php
+
+		-
+			message: "#^Offset 'id' does not exist on array\\|null\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Converter/CountryConverter.php
+
+		-
+			message: "#^Offset 'id' does not exist on array\\|null\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Converter/CurrencyConverter.php
+
+		-
+			message: "#^Cannot call static method getEntity\\(\\) on SwagMigrationAssistant\\\\Migration\\\\DataSelection\\\\DataSet\\\\DataSet\\|null\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Converter/CustomFieldConverter.php
+
+		-
+			message: "#^Offset 'id' does not exist on array\\|null\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Converter/CustomFieldConverter.php
+
+		-
+			message: "#^Offset 'entityUuid' does not exist on array\\|null\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Converter/CustomerConverter.php
+
+		-
+			message: "#^Offset 'id' does not exist on array\\|null\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Converter/CustomerConverter.php
+
+		-
+			message: "#^Offset 'id' does not exist on array\\|null\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Converter/CustomerGroupConverter.php
+
+		-
+			message: "#^Offset 'id' does not exist on array\\|null\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Converter/LanguageConverter.php
+
+		-
+			message: "#^Offset 'id' does not exist on array\\|null\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Converter/ManufacturerConverter.php
+
+		-
+			message: "#^Offset 'id' does not exist on array\\|null\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Converter/MediaConverter.php
+
+		-
+			message: "#^Offset 'id' does not exist on array\\|null\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Converter/NewsletterRecipientConverter.php
+
+		-
+			message: "#^Offset 'id' does not exist on array\\|null\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Converter/NotAssociatedMediaConverter.php
+
+		-
+			message: "#^Offset 'id' does not exist on array\\|null\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Converter/OrderConverter.php
+
+		-
+			message: "#^Offset 'id' does not exist on array\\|null\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Converter/ProductConverter.php
+
+		-
+			message: "#^Offset 'id' does not exist on array\\|null\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Converter/ProductReviewConverter.php
+
+		-
+			message: "#^Offset 'id' does not exist on array\\|null\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Converter/PropertyGroupConverter.php
+
+		-
+			message: "#^Offset 'id' does not exist on array\\|null\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Converter/SalesChannelConverter.php
+
+		-
+			message: "#^Offset 'id' does not exist on array\\|null\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Converter/SeoUrlConverter.php
+
+		-
+			message: "#^Method Swag\\\\MigrationOxid\\\\Profile\\\\Oxid\\\\Gateway\\\\Local\\\\Reader\\\\AbstractReader\\:\\:buildArrayFromChunks\\(\\) has parameter \\$value with no typehint specified\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Gateway/Local/Reader/AbstractReader.php
+
+		-
+			message: "#^Parameter \\#2 \\.\\.\\.\\$args of function array_merge expects array, array\\|false given\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Gateway/Local/Reader/AbstractReader.php
+
+		-
+			message: "#^Method Swag\\\\MigrationOxid\\\\Profile\\\\Oxid\\\\Gateway\\\\Local\\\\Reader\\\\AbstractReader\\:\\:childrenUtf8ize\\(\\) should return array\\<string\\>\\|bool\\|string but returns array\\<array\\<string\\>\\|bool\\|string\\>\\|bool\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Gateway/Local/Reader/AbstractReader.php
+
+		-
+			message: "#^Argument of an invalid type array\\<int, string\\>\\|false supplied for foreach, only iterables are supported\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Gateway/Local/Reader/NotAssociatedMediaReader.php
+
+		-
+			message: "#^Cannot call static method getEntity\\(\\) on SwagMigrationAssistant\\\\Migration\\\\DataSelection\\\\DataSet\\\\DataSet\\|null\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Media/LocalMediaProcessor.php
+
+		-
+			message: "#^Parameter \\#4 \\$fileSize of method Swag\\\\MigrationOxid\\\\Profile\\\\Oxid\\\\Media\\\\LocalMediaProcessor\\:\\:persistFileToMedia\\(\\) expects int, int\\|false given\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Media/LocalMediaProcessor.php
+
+		-
+			message: "#^Parameter \\#2 \\$mimeType of class Shopware\\\\Core\\\\Content\\\\Media\\\\File\\\\MediaFile constructor expects string, string\\|false given\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Media/LocalMediaProcessor.php
+
+		-
+			message: "#^Parameter \\#2 \\$destination of method Shopware\\\\Core\\\\Content\\\\Media\\\\File\\\\FileSaver\\:\\:persistFileToMedia\\(\\) expects string, string\\|null given\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Media/LocalMediaProcessor.php
+
+		-
+			message: "#^Parameter \\#1 \\$fp of function fwrite expects resource, resource\\|false given\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Media/LocalMediaProcessor.php
+
+		-
+			message: "#^Parameter \\#1 \\$fp of function fclose expects resource, resource\\|false given\\.$#"
+			count: 1
+			path: src/Profile/Oxid/Media/LocalMediaProcessor.php
+
+		-
+			message: "#^Access to an undefined property Swag\\\\MigrationOxid\\\\Test\\\\Mock\\\\Migration\\\\Mapping\\\\DummyOxidMappingService\\:\\:\\$uuids\\.$#"
+			count: 1
+			path: tests/Mock/Migration/Mapping/DummyOxidMappingService.php
+

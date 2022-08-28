@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files psalm-version="4.6.1@e93e532e4eaad6d68c4d7b606853800eaceccc72">
+  <file src="src/Profile/Oxid/Converter/CountryConverter.php">
+    <NonInvariantDocblockPropertyType occurrences="1">
+      <code>$mappingService</code>
+    </NonInvariantDocblockPropertyType>
+  </file>
+  <file src="src/Profile/Oxid/Converter/CurrencyConverter.php">
+    <NonInvariantDocblockPropertyType occurrences="1">
+      <code>$mappingService</code>
+    </NonInvariantDocblockPropertyType>
+  </file>
+  <file src="src/Profile/Oxid/Converter/OrderConverter.php">
+    <NonInvariantDocblockPropertyType occurrences="1">
+      <code>$mappingService</code>
+    </NonInvariantDocblockPropertyType>
+  </file>
+  <file src="src/Profile/Oxid/Converter/ProductConverter.php">
+    <NonInvariantDocblockPropertyType occurrences="1">
+      <code>$mappingService</code>
+    </NonInvariantDocblockPropertyType>
+  </file>
+  <file src="src/Profile/Oxid/Converter/SalesChannelConverter.php">
+    <NonInvariantDocblockPropertyType occurrences="1">
+      <code>$mappingService</code>
+    </NonInvariantDocblockPropertyType>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/AbstractReader.php">
+    <DeprecatedMethod occurrences="4">
+      <code>fetch</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/CategoryReader.php">
+    <DeprecatedMethod occurrences="3">
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/CountryReader.php">
+    <DeprecatedMethod occurrences="1">
+      <code>fetchAll</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/CrossSellingReader.php">
+    <DeprecatedMethod occurrences="2">
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/CurrencyReader.php">
+    <DeprecatedMethod occurrences="2">
+      <code>fetch</code>
+      <code>fetchAll</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/CustomerGroupReader.php">
+    <DeprecatedMethod occurrences="2">
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/CustomerReader.php">
+    <DeprecatedMethod occurrences="3">
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/EnvironmentReader.php">
+    <DeprecatedMethod occurrences="2">
+      <code>fetch</code>
+      <code>fetch</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/LanguageReader.php">
+    <DeprecatedMethod occurrences="1">
+      <code>fetchAll</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/LocalTableReader.php">
+    <DeprecatedMethod occurrences="1">
+      <code>fetchAll</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/ManufacturerReader.php">
+    <DeprecatedMethod occurrences="2">
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/MediaReader.php">
+    <DeprecatedMethod occurrences="2">
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/NewsletterRecipientReader.php">
+    <DeprecatedMethod occurrences="3">
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/OrderReader.php">
+    <DeprecatedMethod occurrences="5">
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/ProductChildMultiSelectPropertyRelationReader.php">
+    <DeprecatedMethod occurrences="3">
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/ProductChildPropertyRelationReader.php">
+    <DeprecatedMethod occurrences="3">
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/ProductCustomFieldReader.php">
+    <DeprecatedMethod occurrences="6">
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+    <UnusedVariable occurrences="1">
+      <code>$storeId</code>
+    </UnusedVariable>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/ProductMultiSelectPropertyRelationReader.php">
+    <DeprecatedMethod occurrences="3">
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/ProductOptionRelationReader.php">
+    <DeprecatedMethod occurrences="2">
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/ProductPropertyRelationReader.php">
+    <DeprecatedMethod occurrences="3">
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/ProductReader.php">
+    <DeprecatedMethod occurrences="13">
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+      <code>fetchColumn</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+    <UnusedVariable occurrences="1">
+      <code>$storeId</code>
+    </UnusedVariable>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/ProductReviewReader.php">
+    <DeprecatedMethod occurrences="3">
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/PropertyGroupReader.php">
+    <DeprecatedMethod occurrences="5">
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/SalesChannelReader.php">
+    <DeprecatedMethod occurrences="10">
+      <code>fetch</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid/Gateway/Local/Reader/SeoUrlReader.php">
+    <DeprecatedMethod occurrences="2">
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid19/Gateway/Local/Oxid19LocalGateway.php">
+    <DeprecatedMethod occurrences="4">
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid19/Gateway/Local/Reader/Oxid19CustomerGroupReader.php">
+    <DeprecatedMethod occurrences="2">
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid2/Gateway/Local/Oxid2LocalGateway.php">
+    <DeprecatedMethod occurrences="5">
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid2/Gateway/Local/Reader/Oxid2CategoryReader.php">
+    <DeprecatedMethod occurrences="2">
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid2/Gateway/Local/Reader/Oxid2CountryReader.php">
+    <DeprecatedMethod occurrences="1">
+      <code>fetchAll</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid2/Gateway/Local/Reader/Oxid2CustomerReader.php">
+    <DeprecatedMethod occurrences="1">
+      <code>fetchAll</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid2/Gateway/Local/Reader/Oxid2LanguageReader.php">
+    <DeprecatedMethod occurrences="1">
+      <code>fetchAll</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid2/Gateway/Local/Reader/Oxid2OrderReader.php">
+    <DeprecatedMethod occurrences="5">
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid2/Gateway/Local/Reader/Oxid2ProductChildMultiSelectPropertyRelationReader.php">
+    <DeprecatedMethod occurrences="2">
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid2/Gateway/Local/Reader/Oxid2ProductChildPropertyRelationReader.php">
+    <DeprecatedMethod occurrences="2">
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid2/Gateway/Local/Reader/Oxid2ProductMultiSelectPropertyRelationReader.php">
+    <DeprecatedMethod occurrences="2">
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid2/Gateway/Local/Reader/Oxid2ProductOptionRelationReader.php">
+    <DeprecatedMethod occurrences="2">
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid2/Gateway/Local/Reader/Oxid2ProductPropertyRelationReader.php">
+    <DeprecatedMethod occurrences="2">
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid2/Gateway/Local/Reader/Oxid2ProductReader.php">
+    <DeprecatedMethod occurrences="2">
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid2/Gateway/Local/Reader/Oxid2PropertyGroupReader.php">
+    <DeprecatedMethod occurrences="2">
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid2/Gateway/Local/Reader/Oxid2SalesChannelReader.php">
+    <DeprecatedMethod occurrences="3">
+      <code>fetchAll</code>
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+  <file src="src/Profile/Oxid2/Gateway/Local/Reader/Oxid2SeoUrlReader.php">
+    <DeprecatedMethod occurrences="2">
+      <code>fetchAll</code>
+      <code>fetchColumn</code>
+    </DeprecatedMethod>
+  </file>
+</files>
